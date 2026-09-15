@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ページ移動</title>
+  <script>
+    // ▼ ここに飛ばしたいURLを書きます ▼
+    const urls = [
+      "https://mild3.top/se",
+      "https://mild3.top/Bt",
+      "https://mild3.top/sotsudonohin",
+      "https://mild3.top/hochisj",
+      "https://mild3.top/BigoLive",
+      "https://mild3.top/monhun",
+      "https://mild3.top/Xa",
+      "https://mild3.top/mD",
+      "https://mild3.top/sugo",
+      "https://mild3.top/fM",
+      "https://mild3.top/PlantsOnFire",
+      "https://mild3.top/vernis",
+      "https://ad.challenging.jp/link.php?i=pieitpc5r4io&m=mi9cvyq2pbt0",
+      "https://mild3.top/kamihimePJ"
+    ];
+    // ▲ 最後のURL以外は、必ず末尾に「,（カンマ）」をつけてください ▲
+    
+    // ランダムに1つ選んで、即座に画面を切り替えます
+    const randomIndex = Math.floor(Math.random() * urls.length);
+    window.location.replace(urls[randomIndex]);
+  </script>
+</head>
+<body>
+  <p>画面を移動しています...</p>
+</body>
+</html>
